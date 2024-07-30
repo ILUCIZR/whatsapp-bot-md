@@ -15,10 +15,8 @@ bot.addCommand(
       return 0
     })
     const date = new Date()
-    let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
-╰────────────────╯
-
+    let CMD_HELP = `
+    ᬊ᭄ƖƝSTƖƝCT
 ╭────────────────
 │ Prefix : ${PREFIX}
 │ User : ${message.pushName}
