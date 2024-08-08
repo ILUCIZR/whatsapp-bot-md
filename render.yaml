@@ -1,5 +1,5 @@
-services:
-  - type: web
+    
+    type: web
     name: levanter
     runtime: docker
     branch: master
@@ -8,9 +8,9 @@ services:
     autoDeploy: true
     envVars:
       - key: SUDO
-        sync: false
+        sync: 254776728535
       - key: PREFIX
-        sync: false
+        sync: .
       - key: STICKER_PACKNAME
         value: ',LyFE'
       - key: RMBG_KEY
@@ -24,18 +24,22 @@ services:
       - key: GEMINI_API_KEY
         value: 'null'
       - key: RENDER_NAME
-        sync: false
+        sync: gstuff
       - key: RENDER_API_KEY
-        sync: false
+        sync: 
       - key: ANTI_DELETE
         value: 'off'
       - key: AUTO_STATUS_VIEW
-        value: 'false'
+        value: 'true(no-dl)'
       - key: SEND_READ
         value: 'false'
       - key: SESSION_ID
-        sync: false
+        sync: 8_8_0e8f_4d01_3137
       - key: PORT
         value: '3000'
       - key: DATABASE_URL
         sync: false
+      - key:ALWAYS_ONLINE
+        value: 'true'
+        key:TZ
+        value: 'Africa/Nairobi'
